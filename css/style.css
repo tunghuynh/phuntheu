@@ -1,0 +1,33 @@
+.show-more{
+    width: 100%;
+    cursor: pointer;
+    color: #e96589;
+    text-decoration: underline;
+}
+.show-more:hover{
+    color: #0c4da2;
+}
+.show-more::before {
+    height: 55px;
+    margin-top: -45px;
+    content: -webkit-gradient(linear,0% 100%,0% 0%,from(#F3D7D6),color-stop(.2,#F3D7D6),to(rgba(255,255,255,0)));
+    display: block;
+}
+.shorten{
+    overflow: hidden;
+    max-height: 150px;
+    transition: max-height 500ms;
+}
+.shorten.is-active{
+    max-height: 800px;
+}
+.form-control{
+    background-color: #ffe3e2;
+    border-color: #5c5c5c !important;
+}
+.thumbnail{
+    background-color: #ffe3e2 !important;
+}
+/*.benefits-vertical .benefit-item .benefit-icon{*/
+    /*height: 100px;*/
+/*}*/
